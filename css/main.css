@@ -1303,8 +1303,8 @@ header {
     min-height: 66px;
     z-index: 600;
     background: rgba(0, 0, 0, 0.64);
-	top:0;
-	left:0;
+    top:0;
+    left:0;
 }
 
 header .container {
@@ -1334,8 +1334,9 @@ header .logo a {
     color: transparent;
     width: 92px;
     height: 15px;
-    background: url("../images/logo.png") no-repeat center;
-    background-size: 92px 15px;
+    font-size:1.5rem;
+    /*background: url("../images/logo.png") no-repeat center;
+    background-size: 92px 15px;*/
 }
 
 /* Main navigation styles */
@@ -1379,12 +1380,13 @@ header .logo a {
 .nav-toggle {
     display: none;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    /*align-items: center;*/
     background: transparent;
     border: none;
     cursor: pointer;
     padding: 10px;
+    z-index:1001:
 }
 
 .hamburger {
@@ -1393,6 +1395,7 @@ header .logo a {
     background: white;
     border-radius: 5px;
     position: relative;
+    transition:all 0.3s linear;
 }
 
 .hamburger::before,
