@@ -1664,11 +1664,11 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 29rem;
-	width: 24rem;
+	height: 26rem;
+	width: 25rem;
 	border-radius: 50%;
-	padding-top: 3.5%;
-	margin: 0.9rem 5rem 4rem 0;
+	/*padding-top: 3.5%;*/
+	margin: 0.9rem 5rem 9rem 0;
 	float: left;
 }
 .intro-info .lead {
