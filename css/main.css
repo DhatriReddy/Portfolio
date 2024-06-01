@@ -2677,7 +2677,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-footer {
+/*footer {
 	padding-bottom: 3rem;
 	font-size: 1.4rem;
 	font-family: "poppins-regular", sans-serif;
@@ -2721,7 +2721,61 @@ footer .copyright span::after {
 }
 footer .copyright span:last-child::after {
 	display: none;
+}*/
+footer {
+    width: 100%;
+    background-color: #333; /* Adjust as needed */
+    color: #fff; /* Adjust as needed */
+    padding: 20px 0; /* Adjust as needed */
 }
+
+footer .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social {
+    margin-bottom: 1rem; /* Space out social icons from copyright text */
+}
+
+footer .copyright span::after {
+    content: "|";
+    display: inline-block;
+    padding: 0 1rem 0 1.2rem;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+footer .footer-social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-social li {
+    margin: 0 0.5rem; /* Adjust spacing between icons */
+}
+
+footer .footer-social a {
+    color: #fff; /* Adjust icon color */
+    text-decoration: none;
+}
+
+#go-top {
+    position: absolute; /* Or fixed */
+    right: 20px; /* Adjust as needed */
+    bottom: 20px; /* Adjust as needed */
+}
+
 
 /**
  * responsive:
