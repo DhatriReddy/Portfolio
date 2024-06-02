@@ -1386,7 +1386,7 @@ header .logo a {
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index:1001;
+    z-index: 1001;
 }
 
 .hamburger {
@@ -1395,7 +1395,7 @@ header .logo a {
     background: white;
     border-radius: 5px;
     position: relative;
-    transition:all 0.3s linear;
+    transition: all 0.3s linear;
 }
 
 .hamburger::before,
