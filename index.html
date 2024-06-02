@@ -63,6 +63,11 @@
 		document.querySelector('.nav-toggle').addEventListener('click', function () {
 			document.querySelector('.main-navigation').classList.toggle('active');
 		});
+		document.querySelectorAll('.main-navigation a').forEach(function (navLink) {
+            		navLink.addEventListener('click', function (event) {
+                		document.querySelector('.main-navigation').classList.remove('active');
+            });
+        });
 	</script>
     <!-- Your other sections go here -->
 </body>
@@ -167,7 +172,7 @@
    		<div class="col-six tab-full">
 
    			<h3>Skills</h3>
-   			<p>Following describes my skill-set with the percentage representing how familiar I am with each of it.</p>
+   			<p>The following describes my skill-set with the percentage representing how familiar I am with each of them.</p>
 
 				<ul class="skill-bars">
 				   <li>
