@@ -1386,7 +1386,7 @@ header .logo a {
     border: none;
     cursor: pointer;
     padding: 10px;
-    z-index:1001:
+    z-index:1001;
 }
 
 .hamburger {
